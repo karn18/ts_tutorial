@@ -1,0 +1,28 @@
+{
+  "name": "ts_tutorial",
+  "version": "1.0.0",
+  "description": "Learning Tyescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.js",
+    "test": "jest",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx"
+  },
+  "keywords": [
+    "TS"
+  ],
+  "author": "Karn",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.24",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "esbuild": "^0.14.36",
+    "eslint": "^8.13.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
